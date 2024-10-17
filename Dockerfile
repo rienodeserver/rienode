@@ -3,7 +3,7 @@ FROM ubuntu:22.04
 
 # Set environment variables
 ENV CODE_SERVER_VERSION=4.0.0
-ENV PASSWORD=00174  # Change this to your desired password
+ENV PASSWORD=12321  # Change this to your desired password
 
 # Install required packages
 RUN apt-get update && apt-get install -y \
